@@ -1,0 +1,33 @@
+Definición
+Python es un lenguaje de programación de alto nivel interpretado orientado a objetos 
+
+Link de página oficial de Python
+https://www.python.org/
+
+Link de Anaconda
+https://www.anaconda.com/products/distribution
+
+**Multiples ambientes de Python**
+Se puede tener múltiples ambientes de Python con diferentes versiones del lenguaje para diversos proyectos.
+Una vez descargado anaconda, se tiene acceso a la "terminal de anaconda" en donde se puede observar la palabra
+"base" y esto nos indica que es el ambiente por defecto a usar.
+Para ver la versión ejecutar
+    $python --version
+
+Crear más ambientes
+    $conda create --name <nombre> python=<version>
+
+Listar los ambientes existentes
+    $conda env list
+
+Eliminar un ambiente
+    $conda remove --name <nombre> --all
+
+Cambiar de ambiente
+    $activate <nombre>
+
+Instalar jupyter notebook
+    $conda install jupyter notebook
+
+Abrir jupyter notebook
+    $jupyter notebook
