@@ -20,6 +20,9 @@ Crear más ambientes
 Listar los ambientes existentes
     $conda env list
 
+Activar un ambiente
+	$conda activate <nombre>
+
 Eliminar un ambiente
     $conda remove --name <nombre> --all
 
